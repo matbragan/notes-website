@@ -26,7 +26,7 @@ A website to register your notes. Project made in Node.js with a database in Mon
   ~~~
 <br> 
 
-- ### Setup of project
+- ### Project setup
   
   #### Initializing the npm
   ~~~sh
@@ -38,7 +38,7 @@ A website to register your notes. Project made in Node.js with a database in Mon
   npm install body-parser express express-handlebars@5.3.2 mongodb nodemon
   ~~~
   
-  #### Setup package.json
+  #### package.json setup
   In the package.json file put:
   ~~~json
   "scripts": {
