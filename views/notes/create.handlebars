@@ -1,0 +1,13 @@
+<a href="/">To Go Back</a>
+<h2>Add a note:</h2>
+<form action="/notes" method="POST">
+    <div class="mb-3">
+        <label for="title" class="form-label">Title</label>
+        <input type="text" class="form-control" id="title" name="title" placeholder="What do you want to note?">
+    </div>
+    <div class="mb-3">
+        <label for="description" class="form-label">Description</label>
+        <textarea class="form-control" name="description" id="description" placeholder="Describe this note..."></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Add note</button>
+</form>
